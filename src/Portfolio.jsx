@@ -258,8 +258,7 @@ export default function Portfolio() {
             </h1>
 
             <p className="text-xl text-gray-400 mb-8 max-w-3xl mx-auto">
-              Computer Science Student & Aspiring Full Stack Developer passionate about creating clean, efficient web
-              applications
+              Digital Development Graduate & Aspiring Full Stack Developer passionate about building real-world web solutions using modern technologies like Laravel and React.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -287,7 +286,7 @@ export default function Portfolio() {
               {[
                 { icon: Github, href: "https://github.com/Hassanezz11" },
                 { icon: Linkedin, href: "https://www.linkedin.com/in/hassan-ezzouhir-5222a121a/" },
-                { icon: Mail, href: "mailto:hassan.ezz319@gmail.com" },
+                { icon: Mail, href: "mailto:ezz.hassan508@gmail.com" },
               ].map((social, index) => (
                 <a
                   key={index}
@@ -343,9 +342,7 @@ export default function Portfolio() {
               }`}
             >
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a dedicated Computer Science student with 2 years of academic experience and a recent 1-month
-                internship where I gained hands-on industry experience. I'm passionate about full-stack development and
-                love creating clean, efficient solutions.
+                I'm a dedicated Digital Development graduate with 2 years of hands-on academic training and a recent 1-month internship, where I contributed to a real-world project in a collaborative team. Passionate about full-stack development, I enjoy building clean, efficient web solutions using technologies like Laravel and React.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Based in Morocco, Marrakech, I'm constantly learning new technologies and working on personal projects
@@ -563,8 +560,8 @@ export default function Portfolio() {
                     {
                       icon: Mail,
                       label: "Email",
-                      value: "hassan.ezz319@gmail.com",
-                      href: "mailto:hassan.ezz319@gmail.com",
+                      value: "ezz.hassan508@gmail.com",
+                      href: "mailto:ezz.hassan508@gmail.com",
                     },
                     {
                       icon: Phone,
@@ -639,7 +636,7 @@ export default function Portfolio() {
                   <Button
                     size="lg"
                     className="bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-700 hover:to-cyan-700 text-white px-8 py-3 rounded-lg transition-all duration-300"
-                    onClick={() => window.open("mailto:hassan.ezz319@gmail.com?subject=Let's work together!", "_blank")}
+                    onClick={() => window.open("mailto:ezz.hassan508@gmail.com?subject=Let's work together!", "_blank")}
                   >
                     <Mail className="w-4 h-4 mr-2" />
                     Send Message
@@ -658,7 +655,7 @@ export default function Portfolio() {
             {[
               { icon: Github, href: "https://github.com/Hassanezz11" },
               { icon: Linkedin, href: "https://www.linkedin.com/in/hassan-ezzouhir-5222a121a/" },
-              { icon: Mail, href: "mailto:hassan.ezz319@gmail.com" },
+              { icon: Mail, href: "mailto:ezz.hassan508@gmail.com" },
             ].map((social, index) => (
               <a
                 key={index}
