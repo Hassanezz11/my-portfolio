@@ -171,14 +171,16 @@ export default function Portfolio() {
   }
 
   const skills = [
-    { name: "React", level: 85, color: "from-blue-500 to-cyan-500" },
+    { name: "React", level: 75, color: "from-blue-500 to-cyan-500" },
     { name: "JavaScript", level: 80, color: "from-yellow-500 to-orange-500" },
-    { name: "Laravel", level: 75, color: "from-red-600 to-orange-600" },
+    { name: "Laravel", level: 85, color: "from-red-600 to-orange-600" },
     { name: "PHP", level: 75, color: "from-purple-600 to-purple-700" },
     { name: "Node.js", level: 70, color: "from-green-500 to-emerald-500" },
-    { name: "Python", level: 65, color: "from-blue-600 to-purple-600" },
-    { name: "MongoDB", level: 60, color: "from-green-600 to-teal-600" },
-    { name: "MySQL", level: 70, color: "from-blue-700 to-indigo-700" },
+    { name: "Python", level: 55, color: "from-blue-600 to-purple-600" },
+    { name: "MongoDB", level: 80, color: "from-green-600 to-teal-600" },
+    { name: "MySQL", level: 90, color: "from-blue-700 to-indigo-700" },
+    { name: "WordPress", level: 65, color: "from-blue-600 to-purple-600" },
+    { name: "Supabase", level: 50, color: "from-green-500 to-emerald-500" },
   ]
 
   const projects = [
@@ -218,7 +220,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-              HEzz
+              <img src="/logo.png" alt="my logo" width={60} height={50} />
             </div>
             <div className="hidden md:flex space-x-8">
               {["home", "about", "skills", "projects", "contact"].map((item) => (
@@ -330,7 +332,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto rounded-2xl bg-gradient-to-br from-purple-500/20 to-cyan-500/20 border border-gray-700 flex items-center justify-center">
                   <div className="w-64 h-64 rounded-xl bg-gradient-to-br from-purple-600 to-cyan-600 flex items-center justify-center text-6xl font-bold">
-                    HE
+                    <img src="/logo.png" alt="my logo" width={300} height={50} />
                   </div>
                 </div>
               </div>

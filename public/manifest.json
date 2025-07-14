@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Hassan Ezzouhir",
+  "name": "Hassan Ezzouhir - Full Stack Developer Portfolio",
+  "description": "Computer Science student passionate about creating clean, efficient web applications",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#8B5CF6",
+  "background_color": "#111827",
+  "categories": ["portfolio", "developer", "technology"]
 }
