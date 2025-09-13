@@ -357,7 +357,6 @@ export default function Portfolio() {
             >
               <p className="text-lg text-gray-300 leading-relaxed">
                 I’m Hassan Ezzouhir, a 3rd-year Computer Science Engineering student and ISTA Digital Development graduate. Passionate about full-stack web development, I create clean, efficient, and user-friendly websites using technologies like React, Next.js, Laravel, Node.js, MySQL, and MongoDB.
-                Based in Marrakech, Morocco, I’m constantly learning, building personal projects, and delivering scalable solutions that combine performance and usability.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Based in Morocco, Marrakech, I'm constantly learning new technologies and working on personal projects
