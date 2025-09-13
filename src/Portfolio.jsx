@@ -18,6 +18,9 @@ import {
   Award,
   BookOpen,
   Calendar,
+  FlaskRoundIcon,
+  FileCog2Icon,
+  FileCheck,
 } from "lucide-react"
 import { Button } from "./components/ui/button"
 import { Card, CardContent } from "./components/ui/card"
@@ -205,11 +208,20 @@ export default function Portfolio() {
     {
       title: "Typing Speed Challenge",
       description:
-        "A typing speed test game with real-time feedback, WPM calculation, and performance tracking. Features smooth animations and responsive design.",
+      "A typing speed test game with real-time feedback, WPM calculation, and performance tracking. Features smooth animations and responsive design.",
       image: "/typing-game.png",
       tech: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
       github: "https://github.com/Hassanezz11/typing-speed-game",
       live: "https://typingame-hassanezz.vercel.app/",
+    },
+    {
+      title: "E-commerce Website",
+      description:
+        "A full-featured, custom-built e-commerce website. Developed from the ground up using Laravel, it features a secure Stripe payment gateway, a dynamic shopping cart, and a clean, user-friendly admin panel for managing products",
+      image: "/hhsa.png",
+      tech: ["Laravel", "MySql", "Blade", "HTML5", "Tailwind CSS"],
+      github: "https://github.com/Hassanezz11/e-commerce-website",
+      live: "https://soukwany.com/",
     },
   ]
 
@@ -344,7 +356,8 @@ export default function Portfolio() {
               }`}
             >
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a dedicated Digital Development graduate with 2 years of hands-on academic training and a recent 1-month internship, where I contributed to a real-world project in a collaborative team. Passionate about full-stack development, I enjoy building clean, efficient web solutions using technologies like Laravel and React.
+                I’m Hassan Ezzouhir, a 3rd-year Computer Science Engineering student and ISTA Digital Development graduate. Passionate about full-stack web development, I create clean, efficient, and user-friendly websites using technologies like React, Next.js, Laravel, Node.js, MySQL, and MongoDB.
+                Based in Marrakech, Morocco, I’m constantly learning, building personal projects, and delivering scalable solutions that combine performance and usability.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Based in Morocco, Marrakech, I'm constantly learning new technologies and working on personal projects
@@ -572,10 +585,10 @@ export default function Portfolio() {
                       href: "tel:+212714774158",
                     },
                     {
-                      icon: MapPin,
-                      label: "Location",
-                      value: "Morocco, Marrakech",
-                      href: "https://maps.app.goo.gl/SQrWcMtbZPCaTANj6",
+                      icon: FileCheck,
+                      label: "Fiverr",
+                      value: "Hassan Ezzouhir",
+                      href: "https://www.fiverr.com/ezzouhirhassan?public_mode=true",
                     },
                     {
                       icon: Github,
