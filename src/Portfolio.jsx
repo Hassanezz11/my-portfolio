@@ -683,7 +683,7 @@ export default function Portfolio() {
               </a>
             ))}
           </div>
-          <p className="text-gray-400">© 2024 Hassan Ezzouhir. Built with React.js</p>
+          <p className="text-gray-400">© 2025 Hassan Ezzouhir. Built with React.js</p>
         </div>
       </footer>
     </div>
